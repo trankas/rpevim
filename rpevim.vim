@@ -62,4 +62,4 @@ endfunction
 
 
 "function! GetSftp(remote_hostname, remote_user, remote_file, remote_pass, to_url)
-command! -nargs=0 GetSftp call GetSftp("localhost", "johnny", "teste", "corduroy", "/tmp/teste")
+command! -nargs=0 GetSftp call GetSftp("localhost", "johnny", "teste", "xxxxx", "/tmp/teste")
